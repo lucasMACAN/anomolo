@@ -1,8 +1,9 @@
 from jogo import PERSONAGEM
 
+# É DE EXTREMA IMPORTÂNCIA NÃO MUDAR O NOME DA VARIÁVEL
+# ELA É FUNDAMENTAL PARA O SAVE FUNCIONAR
 jogador = PERSONAGEM("ALTERE O NOME")
 
-# SISTEMA DE PARAR SÓ QUANDO EU ACORDAR, HEHE
-# POR ENQUANTO É ISSO AÍ
-while jogador.escolha != 5:
+# SISTEMA DE PARAR CRIADO
+while jogador.jogando == True:
     jogador.DECISAO()
